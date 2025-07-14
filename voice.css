@@ -196,6 +196,8 @@ img {
     color: #fff;
     transition: 0.4s;
     padding: 10px 20px;
+    -webkit-tap-highlight-color: transparent; /* Removes grey tap background */
+  touch-action: manipulation; /* Prevents double-tap zoom issues */
 }
 
 .row button:hover {
@@ -244,4 +246,10 @@ img {
     transform: translateY(-5px) scale(1.04);
 
     }
+    button:focus,
+button:active {
+  outline: none;
+  box-shadow: none;
+  transform: none;
+}
 }
