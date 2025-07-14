@@ -7,7 +7,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg,#010758,#490d61);
+    background: linear-gradient(90deg,#BFACAA,#E1E2EF);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
 textarea{
     width: 600px;
     height: 250px;
-    background: #403d84;
+    background: #B497D6;
     font-size: 15px;
     border: 1px solid black;
     border-radius: 5px;
@@ -38,8 +38,8 @@ textarea{
     resize: none;
 }
 textarea::placeholder{
-    color: white;
-    font-size: 17px;
+    color: rgb(255, 253, 253);
+    font-size: 19px;
 }
 .row{
     width: 590px;
@@ -53,7 +53,7 @@ textarea::placeholder{
     height: 50px;
     border: none;
     border-radius: 20px;
-    background:#403d84;
+    background-color:#05204A;
     color: #fff;
     transition: 0.4s;
     appearance: none;
@@ -62,13 +62,20 @@ textarea::placeholder{
     background-size: 15px;
     background-position-x:calc(100% - 20px);
     background-position-y:20px;
+    padding-left: 10px;
+    transition: background-image 0.4s ease;
+}
+img{
+    position: relative;
+    top: 10px;
+    color: red;
 }
 .row button{
     width:120px;
     border: none;
     border-radius: 30px;
     font-size: 20px;
-    background: rgb(216, 47, 47);
+    background: #05204A;
     color: #fff;
     transition: 0.4s;
 }
@@ -77,9 +84,9 @@ textarea::placeholder{
        transform: translatey(-5px) scale(1.1);
        box-shadow: 0px 5px 5px 2px rgb(0 0 0 / 0.8);
        background: #fff;
-       color: rgb(216, 47, 47);
+       color: #05204A;
 }
-.row select:hover{
+.row select:hover {
 cursor: pointer;
 }
 .row i{
